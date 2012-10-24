@@ -6,6 +6,11 @@ body {
 	color: #5b5b5b;
 }
 
+body a{
+	color: #85ad00;
+	text-decoration: none;
+}
+
 h1 {
 	font-size: 32px;
 	color: #888888;
