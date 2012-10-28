@@ -1,0 +1,189 @@
+body {
+	background: #202020;
+	padding: 0;
+	margin: 0 auto;
+	font: 12px "Helvetica Neue";
+}
+
+
+li {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #000;
+}
+a:visited{
+	color: #000;
+}
+a:hover{
+	color: #98ca00;
+}
+a:active{
+	color: #98ca00;
+}
+
+/*-----This code makes 3 Main ID Containers stretch and change colors-----*/
+#header_container {  
+	background: #ccc;
+	clear: left;
+}
+
+#main_container { 
+	background: white;
+	clear: left;
+}
+#footer_container{  
+	background: #ccc;
+	clear: left;
+}
+/*-----------------End 3 Main Stretched BG Code------------------*/
+
+
+/*----This code Centers 3 divs inside main containers------*/
+.header, .footer, .main { 
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+/*------------------BOBY END------------------*/
+
+/*----------Header-----------*/
+.logo{
+	background: #aaa;
+	width: 220px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+}
+
+.navigation {
+	float: right;
+	margin: 0;
+}
+
+.navigation li {
+	float: left;
+}
+
+
+/*----------Buttons-----------*/
+
+.navigation a{
+	background: #aaa;
+	color: black;
+	width: 80px;
+	text-align: center;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+}
+
+.navigation a:hover{
+	height: 30px;
+	background: #ccc;
+}
+
+
+
+
+/*----------Main-------------*/
+.cta, .message, .columns, .under {
+	margin-top: 10px;
+
+}
+.cta{
+	background: #ccc;
+	width: 100%;
+	height: 314px;
+}
+
+.button{
+	background: #777;
+	border: 10px solid #777;
+	width: 100px;
+	float: right;
+	margin: 255px 20px 0 0;
+	text-align: center;
+	color: black;
+}
+
+.button a{
+	color: white;
+}
+/*----------End Button----------*/
+
+
+.message {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.message h2{
+	text-shadow: 0px 1px 1px white;
+	font-style: italic;
+	padding-top: 16px;	
+}
+
+img{
+	height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.columns{
+	width: 33.3333%;
+	float: left;
+    min-height: 1px;
+    padding: 0;
+    position: relative;
+}
+
+h2, p{
+	padding: 0px 15px;
+	margin-top: 0;
+	
+} 
+
+/*----------Lower Section---------*/
+.under {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.under section {
+	width: 460px;
+	height: 120px;
+	float: left;
+	overflow: hidden;
+	padding: 10px 0;
+	margin: 10px;
+}
+
+.under section h3, .under section p{
+	padding: 5px 100px 5px 5px;
+	margin: 0;
+}
+
+.under img{
+	padding: 8px 22px 0 10px;
+	float: left;
+}
+
+/*----------Footer------------*/
+
+.footer {
+}
+
+.footer p{
+	padding: 20px;
+	color: #48564a;
+}
