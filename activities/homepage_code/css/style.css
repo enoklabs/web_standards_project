@@ -23,21 +23,21 @@ a{
 	text-decoration: none;
 }
 a:link{
-	color: #00c7e6;
+	color: #00b3e9;
 }
 a:visited{
-	color: #000;
+	color: #00b3e9;
 }
 a:hover{
-	color: #4be7ff;
+	color: #35d0ff;
 }
 a:active{
-	color: #88f0ff;
+	color: #35d0ff;
 }
 
 /*-----This code makes 3 Main ID Containers stretch and change colors-----*/
 #header_container {  
-	background: #444;
+	background: #00b3e9;
 	clear: left;
 }
 
@@ -62,11 +62,16 @@ a:active{
 
 /*----------Header-----------*/
 .logo{
-	background: #aaa;
-	width: 220px;
+	width: auto;
 	height: 50px;
 	overflow: hidden;
 	float: left;
+}
+
+.logo a {
+	color: #ffffff;
+	font: 35px 'Sansita One', cursive;
+	text-shadow: 0px 2px 3px #005f8b;
 }
 
 .navigation {
@@ -82,8 +87,8 @@ a:active{
 /*----------Buttons-----------*/
 
 .navigation a{
-	background: #444;
-	color: #4be7ff;
+	background: #00b3e9;
+	color: #ffffff;
 	width: 80px;
 	text-align: center;
 	float: left;
@@ -93,7 +98,7 @@ a:active{
 
 .navigation a:hover{
 	height: 30px;
-	background: #555;
+	background: #35d0ff;
 }
 
 
@@ -110,19 +115,25 @@ a:active{
 	height: 314px;
 }
 
+.cta a {
+	color: white;
+}
+
+
 .button{
-	background: #777;
-	border: 10px solid #777;
+	background: #00b3e9;
+	border: 10px solid #00b3e9;
 	width: 100px;
 	float: right;
 	margin: 255px 20px 0 0;
 	text-align: center;
-	color: black;
 }
 
-.button a{
-	color: white;
+.button:hover{
+	background: #35d0ff;
+	border: 10px solid #35d0ff;
 }
+
 /*----------End Button----------*/
 
 
@@ -194,5 +205,5 @@ h2, p{
 
 .footer p{
 	padding: 20px;
-	color: #48564a;
+	color: #000;
 }
