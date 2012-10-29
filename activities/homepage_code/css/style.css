@@ -23,21 +23,21 @@ a{
 	text-decoration: none;
 }
 a:link{
-	color: #000;
+	color: #00c7e6;
 }
 a:visited{
 	color: #000;
 }
 a:hover{
-	color: #98ca00;
+	color: #4be7ff;
 }
 a:active{
-	color: #98ca00;
+	color: #88f0ff;
 }
 
 /*-----This code makes 3 Main ID Containers stretch and change colors-----*/
 #header_container {  
-	background: #ccc;
+	background: #444;
 	clear: left;
 }
 
@@ -82,8 +82,8 @@ a:active{
 /*----------Buttons-----------*/
 
 .navigation a{
-	background: #aaa;
-	color: black;
+	background: #444;
+	color: #4be7ff;
 	width: 80px;
 	text-align: center;
 	float: left;
@@ -93,7 +93,7 @@ a:active{
 
 .navigation a:hover{
 	height: 30px;
-	background: #ccc;
+	background: #555;
 }
 
 
