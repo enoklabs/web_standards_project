@@ -1,6 +1,15 @@
+/* 
+Universal Reset
+CSSresetr.com
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
 body {
 	background: #202020;
-	padding: 0;
 	margin: 0 auto;
 	font: 12px "Helvetica Neue";
 }
