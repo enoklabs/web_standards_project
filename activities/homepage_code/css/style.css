@@ -83,9 +83,6 @@ a:active{
 	float: left;
 }
 
-
-/*----------Buttons-----------*/
-
 .navigation a{
 	background: #00b3e9;
 	color: #ffffff;
@@ -102,15 +99,13 @@ a:active{
 }
 
 
-
-
 /*----------Main-------------*/
 .cta, .message, .columns, .under {
 	margin-top: 10px;
 
 }
 .cta{
-	background: #ccc;
+	background-image: url('../images/cta.jpg');
 	width: 100%;
 	height: 314px;
 }
@@ -119,6 +114,8 @@ a:active{
 	color: white;
 }
 
+
+/*----------Buttons-----------*/
 
 .button{
 	background: #00b3e9;
