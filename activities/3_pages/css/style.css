@@ -19,7 +19,7 @@ CSSresetr.com
 body {
 	background: #202020;
 	margin: 0 auto;
-	font: 12px "Helvetica Neue";
+	font: 12px "Helvetica Neue", Arial;
 	color: #585952;
 }
 
