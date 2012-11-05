@@ -26,6 +26,9 @@ body {
 h1 {
 	font: 26px 'Titillium Web';
 }
+h2{
+	color: #289dbf;
+}
 
 li {
 	list-style: none;
@@ -253,7 +256,6 @@ img{
 }
 .columns h2{
 	font: 26px 'Titillium Web';
-	color: #c6cfd2;
 }
 
 h2, p{
