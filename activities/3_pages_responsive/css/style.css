@@ -1,0 +1,443 @@
+/*=========COLOR SWATCHES===============
+	Dark Grey      #585952
+	Mid Grey	   #bfbfae
+	White Grey	   #ebf2f0
+	Blue Grey	   #aeb4bf
+	Light Blue	   #91cce2
+	Blue		   #289dbf
+=========COLOR SWATCHES===============*/
+/* 
+Universal Reset
+CSSresetr.com
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	background: #202020;
+	margin: 0 auto;
+	font: 12px "Helvetica Neue", Arial;
+	color: #585952;
+}
+
+h1 {
+	font: 26px 'Titillium Web';
+}
+h2{
+	color: #289dbf;
+}
+
+li {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #289dbf;
+}
+a:visited{
+	color: #289dbf;
+}
+a:hover{
+	color: #64dbff;
+}
+a:active{
+	color: #289dbf;
+}
+
+/*-----This code makes 3 Main ID Containers stretch and change colors-----*/
+#header_container {  
+	background: url('../images/header.png') repeat-x;
+	clear: left;
+	height: 146px;
+	border-bottom: 10px #bfbfae solid;
+}
+
+#home_container { 
+	background: url('../images/cta_bg.png') repeat-x;
+	background-color: #fff;
+	clear: left;
+}
+#main_container { 
+	background-color: #fff;
+	clear: left;
+}
+
+#footer_container{  
+	background: url('../images/footer_bg.png') repeat-x;
+	clear: left;
+	border-top: 10px #bfbfae solid;
+}
+/*-----------------End 3 Main Stretched BG Code------------------*/
+
+
+/*----This code Centers 3 divs inside main containers------*/
+.header, .footer, .main { 
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+}
+/*------------------BOBY END------------------*/
+
+/*----------Header-----------*/
+.logo{
+	overflow: hidden;
+	float: left;
+	padding: 0px;
+	margin-top: 60px;
+	width: 341px;
+	height: 54px;
+	background: url('../images/logo.png') no-repeat;
+}
+
+
+.navigation {
+	float: right;
+	margin: 0;
+}
+
+.navigation li {
+	float: left;
+}
+
+.navigation a{
+	color: #ebf2f0;
+	font: 20px 'Titillium Web';
+	width: 96px;
+	height: 66px;
+	text-align: center;
+	float: left;
+	padding-top: 80px;
+}
+
+.navigation a:hover{
+	height: 58px;
+	border-bottom: 8px #91cce2 solid;
+	background: -webkit-linear-gradient(#91cce2 0%, #289dbf 90%);
+	background: -moz-linear-gradient(#91cce2 0%, #289dbf 90%);
+}
+
+
+/*----------Main-------------*/
+.message, .columns, .under {
+	margin-top: 10px;
+
+}
+.cta{
+	background: url('../images/cta.png') no-repeat;
+	width: 100%;
+	height: 308px;
+}
+
+.cta a {
+	color: white;
+}
+
+.main h1{
+	margin-top: 20px;
+}
+
+/*----------Buttons-----------*/
+.button div{
+	background: url('../images/transparent.png');
+	width: 400px;
+	height: 95px;
+	float: right;
+	margin: 225px 10px 0 0;
+	text-align: left;
+}
+.button h2, .button h4{
+	padding-left: 20px;
+	width: 220px;
+	margin-top: 10px;
+	float: left;
+}
+
+.button h4{
+	color: #bfbfae;
+}
+.button h2{
+	font-size: 20px;
+	color: #fff;
+}
+
+.button:hover{
+	border: 10px solid #35d0ff;
+}
+.button .arrow{
+	width: 70px;
+	height: 95px;
+	background: #289dbf;
+	margin: -61px 0;
+}
+.button img{
+	margin-top: 10px;
+}
+.columns2{
+	float: left;
+	margin: 0;
+	padding-top: 20px;
+}
+.globe, .self, .pool, .sport{
+	float: left;
+	width: 470px;
+	height: 219px;
+	margin: 10px 10px 20px 0;
+}
+.globe div, .self div, .pool div, .sport div{
+	background: url('../images/transparent.png');
+	float: right;
+	margin: 159px 0px 0 0;
+	text-align: left;
+	width: 470px;
+	height: 60px;
+}
+.globe{
+	background-image: url('../images/globe.png');
+}
+.self{
+	background-image: url('../images/selfcontained.png');
+}
+.pool{
+	background-image: url('../images/pool.png');
+}
+.sport{
+	background-image: url('../images/sport.png');
+}
+.globe h2, .self h2, .pool h2, .sport h2{
+	font: 25px 'Titillium Web';
+	color: white;
+	margin-top: 10px;
+}
+.globe .arrow, .self .arrow, .pool .arrow, .sport .arrow{
+	width: 45px;
+	height: 60px;
+	background: #289dbf;
+	margin: -49px 0 0 0;
+	overflow: hidden;
+}
+.globe img, .self img, .pool img, .sport img{
+	margin-left: -6px;
+	width: 30px;
+}
+
+/*----------End Button----------*/
+
+
+.message {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.message h2{
+	text-shadow: 0px 1px 1px white;
+	font: 2.3em 'Titillium Web';
+	font-style: italic;
+	color: #bfbfae;
+	padding-top: 16px;	
+}
+img{
+	height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.columns{
+	width: 33.3333%;
+	float: left;
+    min-height: 1px;
+    padding: 0;
+    position: relative;
+}
+.columns h2{
+	font: 26px 'Titillium Web';
+}
+
+h2, p{
+	padding: 0px 15px;
+	margin-top: 0;
+} 
+
+.about{
+	width: 66%;
+	float: left;
+}
+.about p{
+	padding: 0;
+	margin-top: 15px;
+}
+.about img{
+	float: right;
+}
+#aboutcolumns{
+	overflow: hidden;
+	width: 33%;
+	margin-top: 20px;
+	float: right;
+}
+#aboutcolumns .columns{
+	margin-bottom: 20px;
+	width: 80%;
+	float: right;
+}
+#aboutcolumns .columns h2{
+	font-size: 1.5em;
+}
+
+/*----------Contact Form--------------*/
+.contact{
+	background: #bfbfae;
+	width: 650px;
+	margin: 30px 0 30px 0px;
+	padding: 10px 0 10px 0;
+	float: left;
+}
+.contact .visit h1, .contact .visit p{
+	margin: 10px 0 10px 10px;
+	padding: 0;
+}
+.contact .visit h1{
+	width: 250px;
+	overflow: hidden;
+}
+.contact .visit p{
+	width: 420px;
+	float: left;
+}
+.contact .visit img{
+	float: right;
+	padding: 0;
+	margin: -40px 20px 0 0;
+}
+.tab{
+	background: white;
+	padding: 0px;
+	margin-top: 140px;
+	margin-left: 10px;
+	width: 198px;
+	height: 43px;
+}
+.tab h3{
+	padding: 15px 0 0 25px;
+}
+.contact .form{
+	clear: left;
+	background: #fff;
+	margin: 0px 10px;
+	width: 610px;
+	height: 350px;
+	padding: 40px 10px 10px 10px;
+}
+.form label{
+	display: inline-block;
+	margin-bottom: 30px;
+	padding: 10px 0 0 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.form input{
+	width: 490px;
+	float: right;
+	font-size: medium;
+	height: 34px;
+}
+.form textarea{
+	width: 608px;
+	float: left;
+	font-size: medium;
+	height: 90px;
+	margin-top: -20px;
+}
+.form button{
+	width: 127px;
+	height: 36px;
+	float: left;
+	margin-top: 12px;
+	font-size: small;
+	color: #ebf2f0;
+	border: 1px #006381 solid;
+	background:-webkit-linear-gradient(#2fcfff 0%, #289dbf 6.95%);
+		background:-moz-linear-gradient(#2fcfff 0%, #289dbf 6.95%);
+}
+.form button:hover{
+	width: 127px;
+	height: 36px;
+	float: left;
+	margin-top: 12px;
+	font-size: small;
+	color: #ebf2f0;
+	border: 1px #006381 solid;
+	background:-webkit-linear-gradient(#64dbff 0%, #00b3ea 6.95%);
+	background:-moz-linear-gradient(#64dbff 0%, #00b3ea 6.95%);
+}
+.map{
+	width: 260px;
+	height: 590px;
+	padding: 0;
+	margin: 30px 20px 0 0px;
+	overflow: hidden;
+	float: right;
+}
+.map h1{
+	padding: 0;
+	margin: 19px 0;
+}
+.map .address {
+	margin-top: 20px;
+}
+.map .address p{
+	padding: 2px 0;
+	font-size: medium;
+}
+
+
+/*----------End Contact Form----------*/
+
+/*----------Lower Section---------*/
+.under {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.under section {
+	width: 460px;
+	height: 120px;
+	float: left;
+	overflow: hidden;
+	padding: 10px 0;
+	margin: 10px;
+}
+.under section h3, .under section p{
+	padding: 5px 80px 5px 5px;
+	margin: 0;
+}
+.under img{
+	padding: 8px 22px 0 10px;
+	float: left;
+}
+
+/*----------Footer------------*/
+.footer_nav{
+	padding: 20px;
+	float: right;
+	margin-bottom: 48px;
+}
+.footer_nav li{
+	float: left;
+	width: 60px;
+	text-align: center;
+}
+.footer_nav li a{
+		color: #aeb4bf;
+}
+.footer p{
+	padding: 20px;
+	color: #aeb4bf;
+	float: left;
+}
