@@ -18,9 +18,9 @@ CSSresetr.com
 
 body {
 	background: #202020;
-	margin: 0 auto;
 	font: 12px "Helvetica Neue", Arial;
 	color: #585952;
+	margin: 0 auto;
 }
 
 h1 {
@@ -54,8 +54,8 @@ a:active{
 #header_container {  
 	background: url('../images/header.png') repeat-x;
 	clear: left;
-	height: 146px;
 	border-bottom: 10px #bfbfae solid;
+	height: 146px;
 }
 
 #home_container { 
@@ -79,7 +79,7 @@ a:active{
 /*----This code Centers 3 divs inside main containers------*/
 .header, .footer, .main { 
 	margin: 0 auto;
-	width: 960px;
+	max-width: 960px;
 	overflow: hidden;
 }
 /*------------------BOBY END------------------*/
@@ -90,28 +90,31 @@ a:active{
 	float: left;
 	padding: 0px;
 	margin-top: 60px;
-	width: 341px;
+	width: 35.5208%;
 	height: 54px;
 	background: url('../images/logo.png') no-repeat;
+	background-size: contain;
 }
 
 
 .navigation {
+	width: 50%;
 	float: right;
 	margin: 0;
 }
 
 .navigation li {
 	float: left;
+	width: 20%;
 }
 
 .navigation a{
 	color: #ebf2f0;
-	font: 20px 'Titillium Web';
-	width: 96px;
-	height: 66px;
+	font: 1.67em'Titillium Web';
+	width: 100%;
+	height: 100%;
 	text-align: center;
-	float: left;
+	float: right;
 	padding-top: 80px;
 }
 
@@ -143,6 +146,8 @@ a:active{
 }
 
 /*----------Buttons-----------*/
+
+
 .button div{
 	background: url('../images/transparent.png');
 	width: 400px;
@@ -162,7 +167,7 @@ a:active{
 	color: #bfbfae;
 }
 .button h2{
-	font-size: 20px;
+	font-size: 1.677em;
 	color: #fff;
 }
 
@@ -210,7 +215,7 @@ a:active{
 	background-image: url('../images/sport.png');
 }
 .globe h2, .self h2, .pool h2, .sport h2{
-	font: 25px 'Titillium Web';
+	font: 2.083em 'Titillium Web';
 	color: white;
 	margin-top: 10px;
 }
@@ -255,7 +260,7 @@ img{
     position: relative;
 }
 .columns h2{
-	font: 26px 'Titillium Web';
+	font: 2.167em 'Titillium Web';
 }
 
 h2, p{
@@ -401,17 +406,15 @@ h2, p{
 /*----------Lower Section---------*/
 .under {
 	float: left;
-	width: 100%;
 	height: auto;
 	margin-bottom: 10px;
 }
 .under section {
-	width: 460px;
+	width: 47.916%;
 	height: 120px;
 	float: left;
-	overflow: hidden;
 	padding: 10px 0;
-	margin: 10px;
+	margin: 10px 0px 10px 10px;
 }
 .under section h3, .under section p{
 	padding: 5px 80px 5px 5px;
@@ -424,9 +427,8 @@ h2, p{
 
 /*----------Footer------------*/
 .footer_nav{
-	padding: 20px;
 	float: right;
-	margin-bottom: 48px;
+	margin: 20px 0 48px 0;
 }
 .footer_nav li{
 	float: left;
@@ -434,10 +436,325 @@ h2, p{
 	text-align: center;
 }
 .footer_nav li a{
-		color: #aeb4bf;
+	color: #aeb4bf;
 }
 .footer p{
-	padding: 20px;
+	padding: 20px 0 0 20px;
 	color: #aeb4bf;
 	float: left;
 }
+
+
+
+/* Media Queries------------------------------------*/
+
+	
+	/*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
+	@media screen and (min-width:600px) and (max-width:960px){
+		
+		#header_container {  
+			border-bottom: 10px #bfbfae solid;
+			height: 76px;
+		}
+		.navigation{
+			width: 55%;
+		}
+		.navigation li{
+		}
+		.navigation a{
+			font-size: 1.3em;
+			margin: 0;
+			padding-top: 25px;
+		}
+		.navigation li a:hover {
+			height: 43px;
+		}
+		.logo{
+			margin: 12px 0 0 10px;
+		}
+		.under section {
+			width: 48%;
+			margin: 10px 0 10px 10px;
+		}
+		.under section h3, .under section p{
+			padding: 5px 10px 5px 5px;
+		}
+		.under img{
+			padding: 8px 22px 80px 5px;
+			float: left;
+			width: 30%;
+		}
+		.message h2{
+			font-size: 1.9em;
+		}
+		.columns h2{
+			font-size: 1.6em;
+		}
+		.footer_nav{
+			float: right;
+			padding: 0px;
+			margin-top: 20px;
+		}
+		.footer_nav ul{
+			float: right;
+		}
+		.footer p{
+			padding: 20px 0 0 8px;
+			font-size: 0.9em;
+		}
+	}
+	
+	
+		/*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
+	@media screen and (min-width:480px) and (max-width:599px){
+		
+		#header_container {
+			border-bottom: none;
+			height: auto;
+		}
+		.navigation{
+			width: 100%;
+			margin: 0;
+		}
+		.navigation li{
+			background: #fff;
+			display: block;
+			width: 100%;
+			border-bottom: 4px #bfbfae solid;
+		}
+		.navigation a{
+			font-size: 1.3em;
+			margin: 0;
+			padding: 5px;
+			color: #585952;
+		}
+		.navigation li a:visited {
+			color: #585952;
+			background: #ebf2f0;
+		}			
+		.navigation li a:hover {
+			color: #fff;
+			background: #91cce2;
+			height: auto;
+			border: none;
+		}		
+		.navigation li a:active {
+			color: #fff;
+			background: #91cce2;
+			height: auto;
+			border: none;
+		}
+		.logo{
+			margin: 20px;
+			width: 100%;
+		}
+		.under section {
+			width: 48%;
+			margin: 10px 0 10px 10px;
+		}
+		.under section h3, .under section p{
+			padding: 5px 10px 5px 5px;
+		}
+		.under img{
+			padding: 8px 22px 80px 5px;
+			float: left;
+			width: 30%;
+		}
+		.message h2{
+			font-size: 1.9em;
+		}
+		.columns h2{
+			font-size: 1.6em;
+		}
+		.footer_nav{
+			float: left;
+			padding: 0px;
+			margin-top: 20px;
+		}
+		.footer_nav ul{
+			float: right;
+		}
+		.footer p{
+			display: none;
+		}
+		.columns{
+			width: 100%;
+		}
+		.columns img{
+			width: 100%;
+		}
+		.under section p, .under section h3{
+			width: 95%;
+			padding: 20px 0 0 0;
+			margin: 0;
+		}
+		.under section {
+			width: 100%;
+		}
+		.under section img{
+			display: none;
+		}
+		.cta{
+			display: none;
+		}
+		.message {
+			display: none;
+		}
+		#home_container{
+			background-image: none;
+		}
+	}
+	
+	/*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
+	@media screen and (min-width:320px) and (max-width:479px){
+		
+		#header_container {  
+			border-bottom: none;
+			height: auto;
+		}
+		.navigation{
+			width: 100%;
+			margin: 0;
+		}
+		.navigation li{
+			background: #fff;
+			display: block;
+			width: 100%;
+			border-bottom: 4px #bfbfae solid;
+		}
+		.navigation a{
+			font-size: 1.3em;
+			margin: 0;
+			padding: 5px;
+			color: #585952;
+		}
+		.navigation li a:visited {
+			color: #585952;
+			background: #ebf2f0;
+		}			
+		.navigation li a:hover {
+			color: #fff;
+			background: #91cce2;
+			height: auto;
+			border: none;
+		}		
+		.navigation li a:active {
+			color: #fff;
+			background: #91cce2;
+			height: auto;
+			border: none;
+		}
+		.logo{
+			margin: 20px;
+			width: 90%;
+		}
+				.footer_nav ul{
+			float: right;
+		}
+		.footer p{
+			display: none;
+		}
+				.columns{
+			width: 100%;
+		}
+		.columns img{
+			width: 100%;
+		}
+		.under section p, .under section h3{
+			width: 95%;
+			padding: 20px 0 0 0;
+			margin: 0;
+		}
+		.under section {
+			width: 100%;
+		}
+		.under section img{
+			display: none;
+		}
+		.cta{
+			display: none;
+		}
+		.message {
+			display: none;
+		}
+		#home_container{
+			background-image: none;
+		}
+	}
+	
+	/*Mobile Portrait size to Mobile Landscape (devices and browsers)*/
+	@media screen and (max-width:319px){
+	
+		#header_container {
+			border-bottom: none;
+			height: auto;
+		}
+		.navigation{
+			width: 100%;
+			margin: 0;
+		}
+		.navigation li{
+			background: #fff;
+			display: block;
+			width: 100%;
+			border-bottom: 4px #bfbfae solid;
+		}
+		.navigation a{
+			font-size: 1.3em;
+			margin: 0;
+			padding: 5px;
+			color: #585952;
+		}
+		.navigation li a:visited {
+			color: #585952;
+			background: #ebf2f0;
+		}			
+		.navigation li a:hover {
+			color: #fff;
+			background: #91cce2;
+			height: auto;
+			border: none;
+		}		
+		.navigation li a:active {
+			color: #fff;
+			background: #91cce2;
+			height: auto;
+			border: none;
+		}
+		.logo{
+			margin: 10px;
+			width: 90%;
+		}
+				.footer_nav ul{
+			float: right;
+		}
+		.footer p{
+			display: none;
+		}
+				.columns{
+			width: 100%;
+		}
+		.columns img{
+			width: 100%;
+		}
+		.under section p, .under section h3{
+			width: 85%;
+			padding: 20px 0 0 0;
+			margin: 0;
+		}
+		.under section {
+			width: 100%;
+		}
+		.under section img{
+			display: none;
+		}
+				.cta{
+			display: none;
+		}
+		.message {
+			display: none;
+		}
+		#home_container{
+			background-image: none;
+		}		
+	}
