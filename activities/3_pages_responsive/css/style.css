@@ -535,22 +535,21 @@ h2, p{
 	.form label{
 		padding-left: 15px;
 	}
-
-.map{
-	max-width: 27.083%;
-	height: 650px;
-}
-.map h1{
-	padding: 0;
-	margin: 19px 0;
-}
-.map .address {
-	margin-top: 20px;
-}
-.map .address p{
-	padding: 2px 0;
-	font-size: medium;
-}
+	.map{
+		max-width: 27.083%;
+		height: 650px;
+	}
+	.map h1{
+		padding: 0;
+		margin: 19px 0;
+	}
+	.map .address {
+		margin-top: 20px;
+	}
+	.map .address p{
+		padding: 2px 0;
+		font-size: medium;
+	}
 
 
 	}
@@ -677,6 +676,38 @@ h2, p{
 			max-width: 90%;
 			margin-right: 50px;
 		}
+		
+	.contact .visit h1{
+		width: 60%;
+	}
+	.contact .visit p{
+		width: 90%;
+	}
+	.contact .form{
+		width: 91%;
+	}
+	.visit img{
+		display: none;
+	}
+
+	.form label{
+		padding-left: 15px;
+	}
+	.map{
+		max-width: 27.083%;
+		height: 650px;
+	}
+	.map h1{
+		padding: 0;
+		margin: 19px 0;
+	}
+	.map .address {
+		margin-top: 20px;
+	}
+	.map .address p{
+		padding: 2px 0;
+		font-size: medium;
+	}
 
 	}
 	
