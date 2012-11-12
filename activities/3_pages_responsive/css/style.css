@@ -301,6 +301,7 @@ h2, p{
 }
 .contact .visit{
 	max-width: 100%;
+	overflow: hidden;
 }
 .contact .visit h1, .contact .visit p{
 	margin: 10px 0 10px 10px;
@@ -322,7 +323,7 @@ h2, p{
 .tab{
 	background: white;
 	padding: 0px;
-	margin-top: 140px;
+	margin-top: 10px;
 	margin-left: 10px;
 	width: 198px;
 	height: 43px;
@@ -517,49 +518,45 @@ h2, p{
 			margin-left: 10px;
 			background-size:cover;
 		}
-		
-		
-	.contact .visit h1{
-		width: 60%;
-	}
-	.contact .visit p{
-		width: 90%;
-	}
-	.contact .form{
-		width: 91%;
-	}
-	.visit img{
-		display: none;
-	}
-
-	.form label{
-		padding-left: 15px;
-	}
-	.map{
-		max-width: 27.083%;
-		height: 650px;
-	}
-	.map h1{
-		padding: 0;
-		margin: 19px 0;
-	}
-	.map .address {
-		margin-top: 20px;
-	}
-	.map .address p{
-		padding: 2px 0;
-		font-size: medium;
-	}
-
-
-	}
+		.contact .visit h1{
+			width: 60%;
+		}
+		.contact .visit p{
+			width: 90%;
+		}
+		.contact .form{
+			width: 91%;
+		}
+		.visit img{
+			display: none;
+		}
+	
+		.form label{
+			padding-left: 15px;
+		}
+		.map{
+			max-width: 27.083%;
+			height: 650px;
+		}
+		.map h1{
+			padding: 0;
+			margin: 19px 0;
+		}
+		.map .address {
+			margin-top: 20px;
+		}
+		.map .address p{
+			padding: 2px 0;
+			font-size: medium;
+		}
+}
 	
 	
 		/*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
 	@media screen and (min-width:480px) and (max-width:599px){
 		
 		#header_container {
-			border-bottom: 10px red solid;
+			border-bottom: none;
 			height: auto;
 		}
 		.navigation{
@@ -676,46 +673,38 @@ h2, p{
 			max-width: 90%;
 			margin-right: 50px;
 		}
-		
-	.contact .visit h1{
-		width: 60%;
-	}
-	.contact .visit p{
-		width: 90%;
-	}
-	.contact .form{
-		width: 91%;
-	}
-	.visit img{
-		display: none;
-	}
-
-	.form label{
-		padding-left: 15px;
-	}
-	.map{
-		max-width: 27.083%;
-		height: 650px;
-	}
-	.map h1{
-		padding: 0;
-		margin: 19px 0;
-	}
-	.map .address {
-		margin-top: 20px;
-	}
-	.map .address p{
-		padding: 2px 0;
-		font-size: medium;
-	}
-
+		.contact{
+			max-width: 100%;
+		}
+		.contact .visit h1{
+			width: 60%;
+		}
+		.contact .visit p{
+			width: 90%;
+		}
+		.contact .form{
+			width: 91%;
+		}
+		.visit img{
+			display: none;
+		}
+	
+		.form label{
+			padding-left: 15px;
+		}
+		.map{
+			float: left;
+			max-width: 100%;
+			height: auto;
+			padding: 0 0 20px 10px;
+		}
 	}
 	
 	/*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
 	@media screen and (min-width:320px) and (max-width:479px){
 		
 		#header_container {  
-			border-bottom: 10px yellow solid;;
+			border-bottom: none;
 			height: auto;
 		}
 		.navigation{
@@ -816,13 +805,42 @@ h2, p{
 			float: right;
 			clear: both;
 		}
+		.contact{
+			max-width: 100%;
+		}
+		.contact .visit h1{
+			width: 80%;
+		}
+		.contact .visit p{
+			width: 90%;
+		}
+		.contact .form{
+			width: 89%;
+			height: 410px;
+		}
+		.contact .form label{
+			font-weight: normal;
+		}
+		.visit img{
+			display: none;
+		}
+	
+		.form label{
+			padding-left: 0;
+		}
+		.map{
+			float: left;
+			max-width: 100%;
+			height: auto;
+			padding: 0 0 20px 10px;
+		}
 	}
 	
 	/*Mobile Portrait size to Mobile Landscape (devices and browsers)*/
 	@media screen and (max-width:319px){
 	
 		#header_container {
-			border-bottom: 10px green solid;;
+			border-bottom: none;
 			height: auto;
 		}
 		.navigation{
@@ -918,5 +936,43 @@ h2, p{
 			float: right;
 			clear: both;
 		}
-
+		.contact{
+			max-width: 100%;
+		}
+		.contact .visit{
+			overflow: hidden;
+		}
+		.contact .visit h1{
+			width: 60%;
+		}
+		.contact .visit p{
+			width: 90%;
+		}
+		.contact .form{
+			width: 89%;
+			height: 450px;
+		}
+		.contact .form label{
+			font-weight: normal;
+		}
+		.visit img{
+			display: none;
+		}
+	
+		.form label{
+			padding-left: 0;
+			margin: 10px 0 2px 0;
+		}
+		.form textarea{
+			width: 100%;
+		}
+		.form input{
+			width: 100%;
+		}
+		.map{
+			float: left;
+			max-width: 90%;
+			height: auto;
+			padding: 0 0 20px 10px;
+		}
 	}
