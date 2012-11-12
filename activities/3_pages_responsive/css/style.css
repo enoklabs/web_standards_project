@@ -133,7 +133,7 @@ a:active{
 }
 .cta{
 	background: url('../images/cta.png') no-repeat;
-	width: 100%;
+	background-size: 100%;
 	height: 308px;
 }
 
@@ -150,7 +150,7 @@ a:active{
 
 .button div{
 	background: url('../images/transparent.png');
-	width: 400px;
+	max-width: 41.666%;
 	height: 95px;
 	float: right;
 	margin: 225px 10px 0 0;
@@ -170,15 +170,12 @@ a:active{
 	font-size: 1.677em;
 	color: #fff;
 }
-
-.button:hover{
-	border: 10px solid #35d0ff;
-}
 .button .arrow{
 	width: 70px;
 	height: 95px;
 	background: #289dbf;
 	margin: -61px 0;
+	float: right;
 }
 .button img{
 	margin-top: 10px;
@@ -502,6 +499,23 @@ h2, p{
 			padding: 20px 0 0 8px;
 			font-size: 0.9em;
 		}
+		.button div{
+			max-width: 53%;
+		}
+		.about {
+			padding-left: 10px;
+		}
+		#aboutcolumns{
+			width: 32%;
+		}
+		#aboutcolumns .columns{
+			width: 90%;
+		}
+		.globe, .self, .pool, .sport{
+			width: 97%;
+			margin-left: 10px;
+			background-size:cover;
+		}
 	}
 	
 	
@@ -509,7 +523,7 @@ h2, p{
 	@media screen and (min-width:480px) and (max-width:599px){
 		
 		#header_container {
-			border-bottom: none;
+			border-bottom: 10px red solid;
 			height: auto;
 		}
 		.navigation{
@@ -603,13 +617,37 @@ h2, p{
 		#home_container{
 			background-image: none;
 		}
+		.about{
+			width: 97%;
+			padding-left: 10px;
+		}
+		#aboutcolumns{
+			float: left;
+			width: 100%;
+			margin: none;
+		}
+		#aboutcolumns .columns{
+			float: none;
+			width: 60%;
+			margin: none;
+		}
+		.globe, .self, .pool, .sport{
+			width: 95%;
+			margin-left: 10px;
+			background-size:cover;
+		}
+		.globe div, .self div, .pool div, .sport div{
+			max-width: 90%;
+			margin-right: 50px;
+		}
+
 	}
 	
 	/*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
 	@media screen and (min-width:320px) and (max-width:479px){
 		
 		#header_container {  
-			border-bottom: none;
+			border-bottom: 10px yellow solid;;
 			height: auto;
 		}
 		.navigation{
@@ -680,13 +718,43 @@ h2, p{
 		#home_container{
 			background-image: none;
 		}
+		.about{
+			width: 97%;
+			padding-left: 10px;
+		}
+		#aboutcolumns{
+			display: none;
+		}
+		.columns div{
+			max-width: 80%;
+		}
+		
+		.globe, .self, .pool, .sport{
+			max-width: 100%;
+			margin-left: 10px;
+		}
+		.globe div, .self div, .pool div, .sport div{
+			width: 65%;
+			margin-right: 160px;
+		}
+		.columns2 h2{
+			font-size: 1.2em;
+			max-width: 45%;
+			overflow: hidden;
+			clear: both;
+		}
+		.arrow{
+			margin-top: 0;
+			float: right;
+			clear: both;
+		}
 	}
 	
 	/*Mobile Portrait size to Mobile Landscape (devices and browsers)*/
 	@media screen and (max-width:319px){
 	
 		#header_container {
-			border-bottom: none;
+			border-bottom: 10px green solid;;
 			height: auto;
 		}
 		.navigation{
@@ -748,7 +816,7 @@ h2, p{
 		.under section img{
 			display: none;
 		}
-				.cta{
+		.cta{
 			display: none;
 		}
 		.message {
@@ -756,5 +824,31 @@ h2, p{
 		}
 		#home_container{
 			background-image: none;
-		}		
+		}
+		.about{
+			width: 95%;
+			padding-left: 10px;
+		}
+		#aboutcolumns{
+			display: none;
+		}
+		.globe, .self, .pool, .sport{
+			width: 97%;
+			margin-left: 10px;
+		}
+		.globe div, .self div, .pool div, .sport div{
+			width: 70%;
+		}
+		.columns2 h2{
+			font-size: 1.2em;
+			max-width: 45%;
+			overflow: hidden;
+			clear: both;
+		}
+		.arrow{
+			margin-top: 0;
+			float: right;
+			clear: both;
+		}
+
 	}
