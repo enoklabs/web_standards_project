@@ -294,21 +294,24 @@ h2, p{
 /*----------Contact Form--------------*/
 .contact{
 	background: #bfbfae;
-	width: 650px;
+	max-width: 67.708%;
 	margin: 30px 0 30px 0px;
 	padding: 10px 0 10px 0;
 	float: left;
+}
+.contact .visit{
+	max-width: 100%;
 }
 .contact .visit h1, .contact .visit p{
 	margin: 10px 0 10px 10px;
 	padding: 0;
 }
 .contact .visit h1{
-	width: 250px;
+	width: 50%;
 	overflow: hidden;
 }
 .contact .visit p{
-	width: 420px;
+	width: 65%;
 	float: left;
 }
 .contact .visit img{
@@ -328,10 +331,9 @@ h2, p{
 	padding: 15px 0 0 25px;
 }
 .contact .form{
-	clear: left;
 	background: #fff;
 	margin: 0px 10px;
-	width: 610px;
+	width: 93%;
 	height: 350px;
 	padding: 40px 10px 10px 10px;
 }
@@ -343,22 +345,21 @@ h2, p{
 	font-weight: bold;
 }
 .form input{
-	width: 490px;
+	width: 76.923%;
 	float: right;
 	font-size: medium;
 	height: 34px;
 }
 .form textarea{
-	width: 608px;
-	float: left;
+	width: 76.923%;
+	float: right;
 	font-size: medium;
-	height: 90px;
-	margin-top: -20px;
+	height: 130px;
 }
 .form button{
-	width: 127px;
+	width: 140px;
 	height: 36px;
-	float: left;
+	float: right;
 	margin-top: 12px;
 	font-size: small;
 	color: #ebf2f0;
@@ -378,7 +379,7 @@ h2, p{
 	background:-moz-linear-gradient(#64dbff 0%, #00b3ea 6.95%);
 }
 .map{
-	width: 260px;
+	max-width: 260px;
 	height: 590px;
 	padding: 0;
 	margin: 30px 20px 0 0px;
@@ -516,6 +517,42 @@ h2, p{
 			margin-left: 10px;
 			background-size:cover;
 		}
+		
+		
+	.contact .visit h1{
+		width: 60%;
+	}
+	.contact .visit p{
+		width: 90%;
+	}
+	.contact .form{
+		width: 91%;
+	}
+	.visit img{
+		display: none;
+	}
+
+	.form label{
+		padding-left: 15px;
+	}
+
+.map{
+	max-width: 27.083%;
+	height: 650px;
+}
+.map h1{
+	padding: 0;
+	margin: 19px 0;
+}
+.map .address {
+	margin-top: 20px;
+}
+.map .address p{
+	padding: 2px 0;
+	font-size: medium;
+}
+
+
 	}
 	
 	
