@@ -452,7 +452,7 @@ h2, p{
 	@media screen and (min-width:600px) and (max-width:960px){
 		
 		#header_container {  
-			border-bottom: none;
+			border-bottom: 10px #bfbfae solid;
 			height: 76px;
 		}
 		.navigation{
