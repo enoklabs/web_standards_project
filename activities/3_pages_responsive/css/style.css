@@ -366,7 +366,7 @@ h2, p{
 	color: #ebf2f0;
 	border: 1px #006381 solid;
 	background:-webkit-linear-gradient(#2fcfff 0%, #289dbf 6.95%);
-		background:-moz-linear-gradient(#2fcfff 0%, #289dbf 6.95%);
+	background:-moz-linear-gradient(#2fcfff 0%, #289dbf 6.95%);
 }
 .form button:hover{
 	width: 127px;
@@ -452,7 +452,7 @@ h2, p{
 	@media screen and (min-width:600px) and (max-width:960px){
 		
 		#header_container {  
-			border-bottom: 10px #bfbfae solid;
+			border-bottom: none;
 			height: 76px;
 		}
 		.navigation{
